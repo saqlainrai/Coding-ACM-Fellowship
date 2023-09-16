@@ -17,4 +17,5 @@ main()
         }
         cout << endl;
     }
+    cout << "The program terminated successfully, new Push generated" << endl;
 }
