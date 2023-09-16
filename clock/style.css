@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: aqua;
+    flex-wrap: wrap;
+}
+#container{
+    text-align: center;
+}
+#clock{
+    padding: 10px;
+    font-size: 100px;
+}
+#input{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    border: 2px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    border-radius: 5px;
+    justify-content: space-around;
+    height: 40px;
+}
+button{
+    width: 70px;
+    height: 20px;
+}
+p{
+    display: inline-block;
+}
